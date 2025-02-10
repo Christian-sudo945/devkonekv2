@@ -1,0 +1,17 @@
+@layer components {
+  .layout-container {
+    @apply max-w-5xl mx-auto px-4;
+  }
+
+  .mobile-header {
+    @apply fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b;
+  }
+
+  .card-base {
+    @apply bg-card rounded-lg shadow-sm p-4 hover:shadow-md transition-all;
+  }
+
+  .section-header {
+    @apply flex items-center justify-between gap-4 pb-4 mb-4 border-b;
+  }
+}
